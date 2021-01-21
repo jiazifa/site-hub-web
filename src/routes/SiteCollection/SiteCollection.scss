@@ -1,0 +1,16 @@
+.text-flow-ellipsis-single {
+  /* 多余内容省略号处理-单行 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-flow-ellipsis-multiple-2 {
+  /* 多余内容省略号处理-多行 */
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
